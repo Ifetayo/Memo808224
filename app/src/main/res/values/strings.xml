@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Memo 808224</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="alarmBtnText">Alarm</string>
+    <string name="discardBtnText">Discard</string>
+    <string name="saveBtnText">Save</string>
+    <string name="modeLabel">Mode</string>
+    <string name="inputLabel">Memo</string>
+    <string name="title_activity_memo">Memo</string>
+    <string-array name="mode_list">
+        <item>Normal</item>
+        <item>Important</item>
+        <item>Urgent</item>
+    </string-array>
+    <string name="title_activity_reminder">Set Alarm</string>
+    <string name="okBtn">Ok</string>
+    <string name="cancelBtn">Cancel</string>
+    <string name="memoHint">Type memo here.</string>
+    <string name="timeLbl">Select Time</string>
+    <string name="dateLbl">Select Date</string>
+</resources>

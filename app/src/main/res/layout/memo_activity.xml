@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inputLabel"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:inputType="textMultiLine"
+        android:id="@+id/memoTextArea"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="@string/memoHint"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modeLabel"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mode"
+        android:layout_gravity="center_horizontal"
+        android:spinnerMode="dropdown"
+        android:entries="@array/mode_list"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="50dp"
+    />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF8D8D8D"
+        android:gravity="center_horizontal" >
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/saveBtnText"
+            android:id="@+id/button"
+            android:layout_weight="1"
+            android:onClick="SaveMemo"
+            android:drawableTop="@drawable/save"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alarmBtnText"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:onClick="SetReminder"
+            android:drawableTop="@drawable/alarm"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/discardBtnText"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:onClick="DiscardMemo"
+            android:drawableTop="@drawable/delete"/>
+    </LinearLayout>
+</LinearLayout>

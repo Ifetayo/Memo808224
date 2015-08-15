@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alarmBtnText">Alarm</string>
+    <string name="modeLabel">Memo</string>
+    <string name="inputLabel">Memo</string>
+    <string name="okBtn">Ok</string>
+    <string name="cancelBtn">Cancel</string>
+    <string name="memoHint">Type memo here.</string>
+    <string name="timeLbl">Select Time</string>
+    <string name="dateLbl">Select Date</string>
+</resources>
